@@ -16,7 +16,7 @@ sh 'mvn clean package'
 }
 stage('Test'){
 steps{
-sh 'mvn Test'
+sh 'mvn test'
 }
 }
 stage('Run application'){
